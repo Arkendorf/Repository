@@ -10,11 +10,19 @@ function love.load()
 end
 
 
+
 function love.update(dt)
+  
 	move()
 end
 
 function love.draw()
+  love.graphics.setColor(255,255,255)
   drawMap()
-	love.graphics.rectangle("fill", x, y, 28, 28)
+  
+	love.graphics.rectangle("fill", x, y, 32, 32)
+  love.graphics.setColor(0,0,255)
+  love.graphics.print("         ".. x , x, y - 2)
+  love.graphics.print("         ".. y , x, y + 10)
+  love.graphics.print("         ".. luasucks() , x, y + 22)
 end
