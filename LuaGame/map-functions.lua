@@ -1,4 +1,5 @@
-local tileW, tileH, tileset, quads, tileTable
+local tileW, tileH, tileset, quads
+
 
 function loadMap(path)
   love.filesystem.load(path)() -- attention! extra parenthesis

@@ -3,6 +3,8 @@ require 'map-functions'
 require 'collision'
 require 'input-output'
 
+
+
 function love.load()
   loadMap('maps/basic.lua')
 	x = 0
