@@ -14,3 +14,9 @@ function luasucks()
 end
 
 
+
+function macroCollisionCheck()
+  
+  return 
+end
+
